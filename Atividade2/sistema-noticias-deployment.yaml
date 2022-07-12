@@ -6,9 +6,9 @@ spec:
   replicas: 1
   template:
     metadata:
-        name: sistema-noticias
-        labels:
-          app: sistema-noticias
+      name: sistema-noticias
+      labels:
+        app: sistema-noticias
     spec:
       containers:
         - name: sistema-noticias-container
